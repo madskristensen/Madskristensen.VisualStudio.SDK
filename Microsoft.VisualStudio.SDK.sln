@@ -12,7 +12,6 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{8EF411AD-984E-49E6-83D2-414BC11557A7}"
 	ProjectSection(SolutionItems) = preProject
 		appveyor.yml = appveyor.yml
-		build.cmd = build.cmd
 		src\Madskristensen.VisualStudio.SDK.targets = src\Madskristensen.VisualStudio.SDK.targets
 		README.md = README.md
 	EndProjectSection
