@@ -4,9 +4,11 @@
 
 Makes it easier to build Visual Studio extensions by having only a single NuGet package reference for the entire SDK.
 
+To use this package, reference the version that matches the lowest version of Visual Studio your extension support. For instance, if your extension support Visual Studio 2015 (14.0) and 2017 (15.0) then you need to reference version 14.0 of the package like so:
+
 ```xml
 <ItemGroup>
-  <PackageReference Include="Madskristensen.VisualStudio.SDK" Version="15.0.0-alpha2" />
+  <PackageReference Include="Madskristensen.VisualStudio.SDK" Version="14.0.0-alpha2" />
 </ItemGroup>
 ```
 
