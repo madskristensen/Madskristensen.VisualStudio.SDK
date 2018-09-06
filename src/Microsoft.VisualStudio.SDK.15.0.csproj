@@ -1,0 +1,89 @@
+﻿<Project Sdk="Microsoft.Net.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net46</TargetFramework>
+    <OutputType>Library</OutputType>
+    <Configurations>Debug;Release</Configurations>
+    <Authors>Microsofts</Authors>
+    <Owners>Microsoft,VisualStudioExtensibility</Owners>
+    <Copyright>© Microsoft Corporation. All rights reserved.</Copyright>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <NetStandardImplicitPackageVersion>1.5.0</NetStandardImplicitPackageVersion>
+    <IncludeBuildOutput>false</IncludeBuildOutput>
+    <CopyLocalLockFileAssemblies>false</CopyLocalLockFileAssemblies>
+    
+    <PackageId>Madskristensen.VisualStudio.SDK</PackageId>
+    <PackageVersion>15.0.0-alpha2</PackageVersion>
+    <PackageDescription>Meta package containing all VSSDK Reference Assemblies</PackageDescription>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <PackageLicenseUrl>https://aka.ms/pexunj</PackageLicenseUrl>
+    <PackageIconUrl>https://aka.ms/vsextensibilityicon</PackageIconUrl>
+    <PackageReleaseNotes>https://go.microsoft.com/fwlink/?LinkID=746387</PackageReleaseNotes>
+    <PackageTags>Microsoft VisualStudio VSSDK Reference Assemblies</PackageTags>
+    <PackageOutputPath>..\artifacts</PackageOutputPath>
+  </PropertyGroup>
+  
+  <ItemGroup>
+    <PackageReference Include="EnvDTE100" Version="10.0.3" />
+    <PackageReference Include="Microsoft.VisualStudio.ComponentModelHost" Version="15.0.26606" />
+    <PackageReference Include="Microsoft.VisualStudio.CoreUtility" Version="15.0.26606" />
+    <PackageReference Include="Microsoft.VisualStudio.Debugger.Engine" Version="15.0.26606" />
+    <PackageReference Include="Microsoft.VisualStudio.Debugger.Interop.10.0" Version="10.0.30320" />
+    <PackageReference Include="Microsoft.VisualStudio.Debugger.Interop.11.0" Version="11.0.50728" />
+    <PackageReference Include="Microsoft.VisualStudio.Debugger.Interop.12.0" Version="12.0.21006" />
+    <PackageReference Include="Microsoft.VisualStudio.Debugger.Interop.14.0" Version="14.3.25408" />
+    <PackageReference Include="Microsoft.VisualStudio.Debugger.Interop.15.0" Version="15.0.26606" />
+    <PackageReference Include="Microsoft.VisualStudio.Debugger.Metadata" Version="15.0.26606" />
+    <PackageReference Include="Microsoft.VisualStudio.Designer.Interfaces" Version="1.1.4323" />
+    <PackageReference Include="Microsoft.VisualStudio.Editor" Version="15.0.26606" />
+    <PackageReference Include="Microsoft.VisualStudio.ImageCatalog" Version="15.0.26606" />
+    <PackageReference Include="Microsoft.VisualStudio.Imaging" Version="15.0.26606" />
+    <PackageReference Include="Microsoft.VisualStudio.Imaging.Interop.14.0.DesignTime" Version="14.3.26930" />
+    <PackageReference Include="Microsoft.VisualStudio.Language.Intellisense" Version="15.0.26606" />
+    <PackageReference Include="Microsoft.VisualStudio.Language.NavigateTo.Interfaces" Version="15.0.26606" />
+    <PackageReference Include="Microsoft.VisualStudio.Language.StandardClassification" Version="15.0.26606" />
+    <PackageReference Include="Microsoft.VisualStudio.OLE.Interop" Version="7.10.6071" />
+    <PackageReference Include="Microsoft.VisualStudio.Package.LanguageService.15.0" Version="15.0.26606" />
+    <PackageReference Include="Microsoft.VisualStudio.ProjectAggregator" Version="8.0.50728" />
+    <PackageReference Include="Microsoft.VisualStudio.Shell.15.0" Version="15.0.26606" />
+    <PackageReference Include="Microsoft.VisualStudio.Shell.Design" Version="15.0.26606" />
+    <PackageReference Include="Microsoft.VisualStudio.Shell.Embeddable" Version="15.0.26606" />
+    <PackageReference Include="Microsoft.VisualStudio.Shell.Immutable.10.0" Version="15.0.25415" />
+    <PackageReference Include="Microsoft.VisualStudio.Shell.Immutable.11.0" Version="15.0.25415" />
+    <PackageReference Include="Microsoft.VisualStudio.Shell.Immutable.12.0" Version="15.0.25415" />
+    <PackageReference Include="Microsoft.VisualStudio.Shell.Immutable.14.0" Version="15.0.25405" />
+    <PackageReference Include="Microsoft.VisualStudio.Shell.Framework" Version="15.0.26606" />
+    <PackageReference Include="Microsoft.VisualStudio.Shell.Interop" Version="7.10.6072" />
+    <PackageReference Include="Microsoft.VisualStudio.Shell.Interop.10.0" Version="10.0.30320" />
+    <PackageReference Include="Microsoft.VisualStudio.Shell.Interop.11.0" Version="11.0.61031" />
+    <PackageReference Include="Microsoft.VisualStudio.Shell.Interop.12.0" Version="12.0.30111" />
+    <PackageReference Include="Microsoft.VisualStudio.Shell.Interop.12.1.DesignTime" Version="12.1.30329" />
+    <PackageReference Include="Microsoft.VisualStudio.Shell.Interop.14.0.DesignTime" Version="14.3.26929" />
+    <PackageReference Include="Microsoft.VisualStudio.Shell.Interop.15.0.DesignTime" Version="15.0.26932" />
+    <PackageReference Include="Microsoft.VisualStudio.Text.Data" Version="15.0.26606" />
+    <PackageReference Include="Microsoft.VisualStudio.Text.Logic" Version="15.0.26606" />
+    <PackageReference Include="Microsoft.VisualStudio.Text.UI" Version="15.0.26606" />
+    <PackageReference Include="Microsoft.VisualStudio.Text.UI.Wpf" Version="15.0.26606" />
+    <PackageReference Include="Microsoft.VisualStudio.TextManager.Interop" Version="7.10.6071" />
+    <PackageReference Include="Microsoft.VisualStudio.TextManager.Interop.8.0" Version="8.0.50728" />
+    <PackageReference Include="Microsoft.VisualStudio.TextManager.Interop.11.0" Version="11.0.61032" />
+    <PackageReference Include="Microsoft.VisualStudio.TextManager.Interop.12.0" Version="12.0.30112" />
+    <PackageReference Include="Microsoft.VisualStudio.TextManager.Interop.12.1.DesignTime" Version="12.1.30330" />
+    <PackageReference Include="Microsoft.VisualStudio.TextTemplating.15.0" Version="15.0.26606" />
+    <PackageReference Include="Microsoft.VisualStudio.TextTemplating.Interfaces.15.0" Version="15.0.26606" />
+    <PackageReference Include="Microsoft.VisualStudio.TextTemplating.VSHost.15.0" Version="15.0.26606" />
+    <PackageReference Include="Microsoft.VisualStudio.Threading" Version="15.3.23" />
+    <PackageReference Include="Microsoft.VisualStudio.Utilities" Version="15.0.26607" />
+    <PackageReference Include="Microsoft.VisualStudio.Validation" Version="15.3.23" />
+    <PackageReference Include="Microsoft.Win32.Primitives" Version="4.3.0" />
+    <PackageReference Include="NuGet.VisualStudio" Version="4.6.2" />
+    <PackageReference Include="stdole" Version="7.0.3303" />
+    <PackageReference Include="VSLangProj" Version="7.0.3301" />
+    <PackageReference Include="VSLangProj100" Version="10.0.30320" />
+    <PackageReference Include="VSLangProj110" Version="11.0.61031" />
+    <PackageReference Include="VSLangProj140" Version="14.0.25030" />
+    <PackageReference Include="VSLangProj140" Version="14.0.25030" />
+    <PackageReference Include="VSLangProj2" Version="7.0.5001" />
+    <PackageReference Include="VSLangProj80" Version="8.0.50728" />
+    <PackageReference Include="VSLangProj90" Version="9.0.30730" />
+  </ItemGroup>
+</Project>
