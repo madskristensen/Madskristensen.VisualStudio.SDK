@@ -12,7 +12,7 @@
     <CopyLocalLockFileAssemblies>false</CopyLocalLockFileAssemblies>
     
     <PackageId>Madskristensen.VisualStudio.SDK</PackageId>
-    <PackageVersion>15.7.0-alpha3</PackageVersion>
+    <PackageVersion>15.7.0-alpha4</PackageVersion>
     <PackageDescription>Meta package containing all VSSDK Reference Assemblies</PackageDescription>
     <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
     <PackageLicenseUrl>https://aka.ms/pexunj</PackageLicenseUrl>
@@ -21,6 +21,13 @@
     <PackageTags>Microsoft VisualStudio VSSDK Reference Assemblies</PackageTags>
     <PackageOutputPath>..\artifacts</PackageOutputPath>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="$(PackageId).targets" Link="build/$(PackageId).targets">
+      <Pack>True</Pack>
+      <PackagePath>build</PackagePath>
+    </None>
+  </ItemGroup>
   
   <ItemGroup>
     <PackageReference Include="EnvDTE" Version="8.0.2" />
