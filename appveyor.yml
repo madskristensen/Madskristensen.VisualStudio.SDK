@@ -10,6 +10,9 @@ install:
 before_build:
   - nuget restore -Verbosity quiet
 
+build_script:
+  - ps: dotnet build /p:configuration=Release
+
 deploy:
   - provider: NuGet
     artifact: /NuGet/
