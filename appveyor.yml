@@ -4,14 +4,13 @@ nuget:
   account_feed: true
   project_feed: true
 
-install:
-- ps: (new-object Net.WebClient).DownloadString("https://raw.github.com/madskristensen/ExtensionScripts/master/AppVeyor/vsix.ps1") | iex
-
 before_build:
   - nuget restore -Verbosity quiet
+  - dotnet build /p:configuration=Release
 
-build_script:
-  - ps: dotnet build /p:configuration=Release
+artifacts:
+  - path: src\artifacts\*.nupkg
+    name: NuGet package
 
 deploy:
   - provider: NuGet
