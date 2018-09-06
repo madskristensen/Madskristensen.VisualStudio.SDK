@@ -1,16 +1,11 @@
 image: Visual Studio 2017
 
 build_script:
-  - dotnet restore --verbosity quiet
   - build.cmd
 
 artifacts:
   - path: artifacts\*.nupkg
     name: NuGet package
-
-nuget:
-  account_feed: true
-  project_feed: true
 
 deploy:
   - provider: NuGet
