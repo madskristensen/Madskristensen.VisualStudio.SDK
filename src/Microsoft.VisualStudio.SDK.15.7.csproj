@@ -6,7 +6,6 @@
     <Authors>Microsofts</Authors>
     <Owners>Microsoft,VisualStudioExtensibility</Owners>
     <Copyright>© Microsoft Corporation. All rights reserved.</Copyright>
-    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
     <NetStandardImplicitPackageVersion>1.5.0</NetStandardImplicitPackageVersion>
     <IncludeBuildOutput>false</IncludeBuildOutput>
     <CopyLocalLockFileAssemblies>false</CopyLocalLockFileAssemblies>
@@ -71,7 +70,6 @@
     <PackageReference Include="Microsoft.VisualStudio.Shell.Interop.12.0" Version="12.0.30111" />
     <PackageReference Include="Microsoft.VisualStudio.Shell.Interop.12.1.DesignTime" Version="12.1.30329" />
     <PackageReference Include="Microsoft.VisualStudio.Shell.Interop.14.0.DesignTime" Version="14.3.26929" />
-    <PackageReference Include="Microsoft.VisualStudio.Shell.Interop.15.0.DesignTime" Version="15.0.26932" />
     <PackageReference Include="Microsoft.VisualStudio.Text.Data" Version="15.6.27740" />
     <PackageReference Include="Microsoft.VisualStudio.Text.Logic" Version="15.6.27740" />
     <PackageReference Include="Microsoft.VisualStudio.Text.UI" Version="15.6.27740" />
@@ -94,7 +92,8 @@
     <PackageReference Include="VSLangProj100" Version="10.0.30320" />
     <PackageReference Include="VSLangProj110" Version="11.0.61031" />
     <PackageReference Include="VSLangProj140" Version="14.0.25030" />
-    <PackageReference Include="VSLangProj140" Version="14.0.25030" />
+    <PackageReference Include="VSLangProj150" Version="15.0.26229" />
+    <PackageReference Include="VSLangProj157" Version="15.7.0" />
     <PackageReference Include="VSLangProj2" Version="7.0.5001" />
     <PackageReference Include="VSLangProj80" Version="8.0.50728" />
     <PackageReference Include="VSLangProj90" Version="9.0.30730" />
