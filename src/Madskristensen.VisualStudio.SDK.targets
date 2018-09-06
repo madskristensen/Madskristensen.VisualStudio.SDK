@@ -14,7 +14,7 @@ Copyright (c) .NET Foundation. All rights reserved.
   <ItemGroup>
     <SuppressFromVsix Include="NuGet.VisualStudio.dll" InProject="false" />
     <SuppressFromVsix Include="Microsoft.Win32.Primitives.dll" InProject="false" />
-    <SuppressFromVsix Include="Microsoft.VisualStudio.Language" InProject="false" />
+    <SuppressFromVsix Include="Microsoft.VisualStudio.Language.dll" InProject="false" />
     <SuppressFromVsix Include="Microsoft.VisualStudio.Shell.Embeddable.dll" InProject="false" />
     <SuppressFromVsix Include="VSLangProj150.dll" InProject="false" />
     <SuppressFromVsix Include="VSLangProj157.dll" InProject="false" />
