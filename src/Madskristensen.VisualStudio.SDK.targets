@@ -16,6 +16,12 @@ Copyright (c) .NET Foundation. All rights reserved.
     <SuppressFromVsix Include="Microsoft.Win32.Primitives.dll" InProject="false" />
     <SuppressFromVsix Include="Microsoft.VisualStudio.Language.dll" InProject="false" />
     <SuppressFromVsix Include="Microsoft.VisualStudio.Shell.Embeddable.dll" InProject="false" />
+    <SuppressFromVsix Include="Microsoft.VisualStudio.Shell.Interop.15.1.DesignTime.dll" InProject="false" />
+    <SuppressFromVsix Include="Microsoft.VisualStudio.Shell.Interop.15.3.DesignTime.dll" InProject="false" />
+    <SuppressFromVsix Include="Microsoft.VisualStudio.Shell.Interop.15.5.DesignTime.dll" InProject="false" />
+    <SuppressFromVsix Include="Microsoft.VisualStudio.Shell.Interop.15.6.DesignTime.dll" InProject="false" />
+    <SuppressFromVsix Include="Microsoft.VisualStudio.Shell.Interop.15.7.DesignTime.dll" InProject="false" />
+    <SuppressFromVsix Include="Microsoft.VisualStudio.Shell.Interop.15.8.DesignTime.dll" InProject="false" />
     <SuppressFromVsix Include="VSLangProj150.dll" InProject="false" />
     <SuppressFromVsix Include="VSLangProj157.dll" InProject="false" />
   </ItemGroup>
