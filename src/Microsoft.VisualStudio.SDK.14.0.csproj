@@ -11,7 +11,7 @@
     <CopyLocalLockFileAssemblies>false</CopyLocalLockFileAssemblies>
 
     <PackageId>Madskristensen.VisualStudio.SDK</PackageId>
-    <PackageVersion>14.0.0-alpha7</PackageVersion>
+    <PackageVersion>14.0.0-alpha8</PackageVersion>
     <PackageDescription>Meta package containing all VSSDK Reference Assemblies</PackageDescription>
     <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
     <PackageLicenseUrl>https://aka.ms/pexunj</PackageLicenseUrl>
@@ -51,6 +51,7 @@
     <PackageReference Include="Microsoft.VisualStudio.OLE.Interop" Version="7.10.6071" />
     <PackageReference Include="Microsoft.VisualStudio.Package.LanguageService.14.0" Version="14.0.23205" />
     <PackageReference Include="Microsoft.VisualStudio.ProjectAggregator" Version="8.0.50728" />
+    <PackageReference Include="Microsoft.VisualStudio.SDK.EmbedInteropTypes" Version="15.0.21" />
     <PackageReference Include="Microsoft.VisualStudio.Shell.14.0" Version="14.0.23205" />
     <PackageReference Include="Microsoft.VisualStudio.Shell.Design" Version="14.0.23205" />
     <PackageReference Include="Microsoft.VisualStudio.Shell.Immutable.10.0" Version="10.0.30319" />
@@ -86,12 +87,12 @@
     <PackageReference Include="NuGet.VisualStudio" Version="4.6.2" />
     <PackageReference Include="stdole" Version="7.0.3303" />
     <PackageReference Include="VSLangProj" Version="7.0.3301" />
+    <PackageReference Include="VSLangProj2" Version="7.0.5001" />
+    <PackageReference Include="VSLangProj80" Version="8.0.50728" />
+    <PackageReference Include="VSLangProj90" Version="9.0.30730" />
     <PackageReference Include="VSLangProj100" Version="10.0.30320" />
     <PackageReference Include="VSLangProj110" Version="11.0.61031" />
     <PackageReference Include="VSLangProj140" Version="14.0.25030" />
     <PackageReference Include="VSLangProj140" Version="14.0.25030" />
-    <PackageReference Include="VSLangProj2" Version="7.0.5001" />
-    <PackageReference Include="VSLangProj80" Version="8.0.50728" />
-    <PackageReference Include="VSLangProj90" Version="9.0.30730" />
   </ItemGroup>
 </Project>
