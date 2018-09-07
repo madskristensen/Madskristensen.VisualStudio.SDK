@@ -10,7 +10,7 @@ To use this package, reference the version that matches the lowest version of Vi
 
 ```xml
 <ItemGroup>
-  <PackageReference Include="Madskristensen.VisualStudio.SDK" Version="14.0.0-alpha2" />
+  <PackageReference Include="Madskristensen.VisualStudio.SDK" Version="14.0.0-alpha7" />
 </ItemGroup>
 ```
 
