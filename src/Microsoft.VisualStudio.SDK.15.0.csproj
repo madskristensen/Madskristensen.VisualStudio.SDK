@@ -10,7 +10,7 @@
     <CopyLocalLockFileAssemblies>false</CopyLocalLockFileAssemblies>
     
     <PackageId>Madskristensen.VisualStudio.SDK</PackageId>
-    <PackageVersion>15.0.0-alpha9</PackageVersion>
+    <PackageVersion>15.0.0-alpha10</PackageVersion>
     <PackageDescription>Meta package containing all VSSDK Reference Assemblies</PackageDescription>
     <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
     <PackageLicenseUrl>https://aka.ms/pexunj</PackageLicenseUrl>
@@ -59,9 +59,8 @@
     <PackageReference Include="Microsoft.VisualStudio.TextTemplating.15.0" Version="15.0.26606" />
     <PackageReference Include="Microsoft.VisualStudio.TextTemplating.Interfaces.15.0" Version="15.0.26606" />
     <PackageReference Include="Microsoft.VisualStudio.TextTemplating.VSHost.15.0" Version="15.0.26606" />
-    <PackageReference Include="Microsoft.VisualStudio.Threading" Version="15.3.23" />
     <PackageReference Include="Microsoft.Win32.Primitives" Version="4.3.0" />
-    <PackageReference Include="Newtonsoft.Json" Version="8.0.3" />
+    <PackageReference Include="Newtonsoft.Json" Version="9.0.1" />
     <PackageReference Include="NuGet.VisualStudio" Version="4.6.2" />
     <PackageReference Include="VSLangProj2" Version="7.0.5001" />
     <PackageReference Include="VSLangProj100" Version="10.0.30320" />
