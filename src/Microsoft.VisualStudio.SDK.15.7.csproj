@@ -10,7 +10,7 @@
     <CopyLocalLockFileAssemblies>false</CopyLocalLockFileAssemblies>
     
     <PackageId>Madskristensen.VisualStudio.SDK</PackageId>
-    <PackageVersion>15.7.0-beta1</PackageVersion>
+    <PackageVersion>15.7.0-beta2</PackageVersion>
     <PackageDescription>Meta package containing all VSSDK Reference Assemblies</PackageDescription>
     <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
     <PackageLicenseUrl>https://aka.ms/pexunj</PackageLicenseUrl>
@@ -34,7 +34,7 @@
     <PackageReference Include="Microsoft.VisualStudio.Debugger.Interop.10.0" Version="10.0.30320" IncludeAssets="compile" />
     <PackageReference Include="Microsoft.VisualStudio.Debugger.Interop.12.0" Version="12.0.21006" IncludeAssets="compile" />
     <PackageReference Include="Microsoft.VisualStudio.Debugger.Interop.14.0" Version="14.3.25408" IncludeAssets="compile" />
-    <PackageReference Include="Microsoft.VisualStudio.Debugger.Interop.15.0" Version="15.0.26606" IncludeAssets="compile" />
+    <PackageReference Include="Microsoft.VisualStudio.Debugger.Interop.15.0" Version="15.6.27413" IncludeAssets="compile" />
     <PackageReference Include="Microsoft.VisualStudio.Debugger.Metadata" Version="15.7.27703" IncludeAssets="compile" />
     <PackageReference Include="Microsoft.VisualStudio.Designer.Interfaces" Version="1.1.4323" IncludeAssets="compile" />
     <PackageReference Include="Microsoft.VisualStudio.Editor" Version="15.6.27740" IncludeAssets="compile" />

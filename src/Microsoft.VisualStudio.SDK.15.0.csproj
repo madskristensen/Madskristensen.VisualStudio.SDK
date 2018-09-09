@@ -10,7 +10,7 @@
     <CopyLocalLockFileAssemblies>false</CopyLocalLockFileAssemblies>
     
     <PackageId>Madskristensen.VisualStudio.SDK</PackageId>
-    <PackageVersion>15.0.0-beta1</PackageVersion>
+    <PackageVersion>15.0.0-beta2</PackageVersion>
     <PackageDescription>Meta package containing all VSSDK Reference Assemblies</PackageDescription>
     <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
     <PackageLicenseUrl>https://aka.ms/pexunj</PackageLicenseUrl>
@@ -29,33 +29,33 @@
   
   <ItemGroup>
     <PackageReference Include="EnvDTE100" Version="10.0.3" IncludeAssets="compile" />
-    <PackageReference Include="Microsoft.VisualStudio.ComponentModelHost" Version="15.0.26201" IncludeAssets="compile" />
-    <PackageReference Include="Microsoft.VisualStudio.Debugger.Engine" Version="15.0.25824-RC" IncludeAssets="compile" />
+    <PackageReference Include="Microsoft.VisualStudio.ComponentModelHost" Version="15.0.26228" IncludeAssets="compile" />
+    <PackageReference Include="Microsoft.VisualStudio.Debugger.Engine" Version="15.0.26228" IncludeAssets="compile" />
     <PackageReference Include="Microsoft.VisualStudio.Debugger.Interop.10.0" Version="10.0.30320" IncludeAssets="compile" />
     <PackageReference Include="Microsoft.VisualStudio.Debugger.Interop.12.0" Version="12.0.21006" IncludeAssets="compile" />
     <PackageReference Include="Microsoft.VisualStudio.Debugger.Interop.14.0" Version="14.3.25408" IncludeAssets="compile" />
-    <PackageReference Include="Microsoft.VisualStudio.Debugger.Interop.15.0" Version="15.0.26201" IncludeAssets="compile" />
-    <PackageReference Include="Microsoft.VisualStudio.Debugger.Metadata" Version="15.0.25824-RC" IncludeAssets="compile" />
+    <PackageReference Include="Microsoft.VisualStudio.Debugger.Interop.15.0" Version="15.0.26228" IncludeAssets="compile" />
+    <PackageReference Include="Microsoft.VisualStudio.Debugger.Metadata" Version="15.0.26228" IncludeAssets="compile" />
     <PackageReference Include="Microsoft.VisualStudio.Designer.Interfaces" Version="1.1.4323" IncludeAssets="compile" />
-    <PackageReference Include="Microsoft.VisualStudio.Editor" Version="15.0.26201" IncludeAssets="compile" />
-    <PackageReference Include="Microsoft.VisualStudio.ImageCatalog" Version="15.0.26201" IncludeAssets="compile" />
-    <PackageReference Include="Microsoft.VisualStudio.Language.StandardClassification" Version="15.0.26201" IncludeAssets="compile" />
-    <PackageReference Include="Microsoft.VisualStudio.Package.LanguageService.15.0" Version="15.0.26201" IncludeAssets="compile" />
+    <PackageReference Include="Microsoft.VisualStudio.Editor" Version="15.0.26228" IncludeAssets="compile" />
+    <PackageReference Include="Microsoft.VisualStudio.ImageCatalog" Version="15.0.26228" IncludeAssets="compile" />
+    <PackageReference Include="Microsoft.VisualStudio.Language.StandardClassification" Version="15.0.26228" IncludeAssets="compile" />
+    <PackageReference Include="Microsoft.VisualStudio.Package.LanguageService.15.0" Version="15.0.26228" IncludeAssets="compile" />
     <PackageReference Include="Microsoft.VisualStudio.ProjectAggregator" Version="8.0.50728" IncludeAssets="compile" />
     <PackageReference Include="Microsoft.VisualStudio.SDK.EmbedInteropTypes" Version="15.0.21" PrivateAssets="none" />
-    <PackageReference Include="Microsoft.VisualStudio.Shell.15.0" Version="15.0.26201" IncludeAssets="compile" />
-    <PackageReference Include="Microsoft.VisualStudio.Shell.Design" Version="15.0.26201" IncludeAssets="compile" />
-    <PackageReference Include="Microsoft.VisualStudio.Shell.Embeddable" Version="15.0.25726-Preview5" IncludeAssets="compile" />
-    <PackageReference Include="Microsoft.VisualStudio.Shell.Framework" Version="15.0.26201" IncludeAssets="compile" />
+    <PackageReference Include="Microsoft.VisualStudio.Shell.15.0" Version="15.0.26228" IncludeAssets="compile" />
+    <PackageReference Include="Microsoft.VisualStudio.Shell.Design" Version="15.0.26228" IncludeAssets="compile" />
+    <PackageReference Include="Microsoft.VisualStudio.Shell.Embeddable" Version="15.0.26228" IncludeAssets="compile" />
+    <PackageReference Include="Microsoft.VisualStudio.Shell.Framework" Version="15.0.26228" IncludeAssets="compile" />
     <PackageReference Include="Microsoft.VisualStudio.Shell.Interop.14.0.DesignTime" Version="14.3.26929" IncludeAssets="compile" />
     <PackageReference Include="Microsoft.VisualStudio.Shell.Interop.15.0.DesignTime" Version="15.0.26201" IncludeAssets="compile" />
     <PackageReference Include="Microsoft.VisualStudio.TextManager.Interop.9.0" Version="9.0.30730" IncludeAssets="compile" />
     <PackageReference Include="Microsoft.VisualStudio.TextManager.Interop.10.0" Version="10.0.30320" IncludeAssets="compile" />
     <PackageReference Include="Microsoft.VisualStudio.TextManager.Interop.12.0" Version="12.0.30112" IncludeAssets="compile" />
     <PackageReference Include="Microsoft.VisualStudio.TextManager.Interop.12.1.DesignTime" Version="12.1.30330" IncludeAssets="compile" />
-    <PackageReference Include="Microsoft.VisualStudio.TextTemplating.15.0" Version="15.0.26201" IncludeAssets="compile" />
-    <PackageReference Include="Microsoft.VisualStudio.TextTemplating.Interfaces.15.0" Version="15.0.25726-Preview5" IncludeAssets="compile" />
-    <PackageReference Include="Microsoft.VisualStudio.TextTemplating.VSHost.15.0" Version="15.0.25726-Preview5" IncludeAssets="compile" />
+    <PackageReference Include="Microsoft.VisualStudio.TextTemplating.15.0" Version="15.0.26228" IncludeAssets="compile" />
+    <PackageReference Include="Microsoft.VisualStudio.TextTemplating.Interfaces.15.0" Version="15.0.26228" IncludeAssets="compile" />
+    <PackageReference Include="Microsoft.VisualStudio.TextTemplating.VSHost.15.0" Version="15.0.26228" IncludeAssets="compile" />
     <PackageReference Include="Microsoft.Win32.Primitives" Version="4.3.0" IncludeAssets="compile" />
     <PackageReference Include="Newtonsoft.Json" Version="8.0.3" IncludeAssets="compile" />
     <PackageReference Include="NuGet.VisualStudio" Version="4.6.2" IncludeAssets="compile" />
@@ -63,5 +63,6 @@
     <PackageReference Include="VSLangProj100" Version="10.0.30320" IncludeAssets="compile" />
     <PackageReference Include="VSLangProj110" Version="11.0.61031" IncludeAssets="compile" />
     <PackageReference Include="VSLangProj140" Version="14.0.25030" IncludeAssets="compile" />
+    <PackageReference Include="VSLangProj150" Version="15.0.26228" IncludeAssets="compile" />
   </ItemGroup>
 </Project>
