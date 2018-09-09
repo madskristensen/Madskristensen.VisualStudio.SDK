@@ -1,68 +1,50 @@
 ﻿<Project Sdk="Microsoft.Net.Sdk">
-  <PropertyGroup>
-    <TargetFramework>net46</TargetFramework>
-    <OutputType>Library</OutputType>
-    <Configurations>Debug;Release</Configurations>
-    <Authors>Microsofts</Authors>
-    <Owners>Microsoft,VisualStudioExtensibility</Owners>
-    <Copyright>© Microsoft Corporation. All rights reserved.</Copyright>
-    <IncludeBuildOutput>false</IncludeBuildOutput>
-    <CopyLocalLockFileAssemblies>false</CopyLocalLockFileAssemblies>
+  <Import Project="Common.targets" />
 
-    <PackageId>Madskristensen.VisualStudio.SDK</PackageId>
-    <PackageVersion>14.0.0-beta1</PackageVersion>
-    <PackageDescription>Meta package containing all VSSDK Reference Assemblies</PackageDescription>
-    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
-    <PackageLicenseUrl>https://aka.ms/pexunj</PackageLicenseUrl>
-    <PackageIconUrl>https://aka.ms/vsextensibilityicon</PackageIconUrl>
-    <PackageReleaseNotes>https://go.microsoft.com/fwlink/?LinkID=746387</PackageReleaseNotes>
-    <PackageTags>Microsoft VisualStudio VSSDK Reference Assemblies</PackageTags>
-    <PackageOutputPath>..\artifacts</PackageOutputPath>
+  <PropertyGroup>
+    <VersionPrefix Condition="'$(VersionPrefix)' == ''">14.0.0</VersionPrefix>
+    <VsVersion Condition="'$(VsVersion)' == ''">14.0.23205</VsVersion>
   </PropertyGroup>
 
   <ItemGroup>
-    <None Include="*.targets" Pack="true" PackagePath="build\" Visible="false" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <PackageReference Include="EnvDTE100" Version="10.0.3" IncludeAssets="compile" />
-    <PackageReference Include="Microsoft.VisualStudio.ComponentModelHost" Version="14.0.25424" IncludeAssets="compile" />
-    <PackageReference Include="Microsoft.VisualStudio.Debugger.Engine" Version="14.0.23205" IncludeAssets="compile" />
-    <PackageReference Include="Microsoft.VisualStudio.Debugger.Interop.10.0" Version="10.0.30320" IncludeAssets="compile" />
-    <PackageReference Include="Microsoft.VisualStudio.Debugger.Interop.12.0" Version="12.0.21006" IncludeAssets="compile" />
-    <PackageReference Include="Microsoft.VisualStudio.Debugger.Interop.14.0" Version="14.0.23205" IncludeAssets="compile" />
-    <PackageReference Include="Microsoft.VisualStudio.Designer.Interfaces" Version="1.1.4323" IncludeAssets="compile" />
-    <PackageReference Include="Microsoft.VisualStudio.Editor" Version="14.0.23205" IncludeAssets="compile" />
-    <PackageReference Include="Microsoft.VisualStudio.ImageCatalog" Version="14.0.23205" IncludeAssets="compile" />
-    <PackageReference Include="Microsoft.VisualStudio.Imaging" Version="14.0.23205" IncludeAssets="compile" />
-    <PackageReference Include="Microsoft.VisualStudio.Imaging.Interop.14.0.DesignTime" Version="14.0.25023" IncludeAssets="compile" />
-    <PackageReference Include="Microsoft.VisualStudio.Language.Intellisense" Version="14.0.23205" IncludeAssets="compile" />
-    <PackageReference Include="Microsoft.VisualStudio.Language.StandardClassification" Version="14.0.23205" IncludeAssets="compile" />
-    <PackageReference Include="Microsoft.VisualStudio.Package.LanguageService.14.0" Version="14.0.23205" IncludeAssets="compile" />
-    <PackageReference Include="Microsoft.VisualStudio.ProjectAggregator" Version="8.0.50728" IncludeAssets="compile" />
+    <PackageReference Include="EnvDTE100" Version="10.0.3" ExcludeAssets="runtime" />
+    <PackageReference Include="Microsoft.VisualStudio.ComponentModelHost" Version="14.0.25424" ExcludeAssets="runtime" />
+    <PackageReference Include="Microsoft.VisualStudio.Debugger.Engine" Version="$(VsVersion)" ExcludeAssets="runtime" />
+    <PackageReference Include="Microsoft.VisualStudio.Debugger.Interop.10.0" Version="10.0.30320" ExcludeAssets="runtime" />
+    <PackageReference Include="Microsoft.VisualStudio.Debugger.Interop.12.0" Version="12.0.21006" ExcludeAssets="runtime" />
+    <PackageReference Include="Microsoft.VisualStudio.Debugger.Interop.14.0" Version="$(VsVersion)" ExcludeAssets="runtime" />
+    <PackageReference Include="Microsoft.VisualStudio.Designer.Interfaces" Version="1.1.4323" ExcludeAssets="runtime" />
+    <PackageReference Include="Microsoft.VisualStudio.Editor" Version="$(VsVersion)" ExcludeAssets="runtime" />
+    <PackageReference Include="Microsoft.VisualStudio.ImageCatalog" Version="$(VsVersion)" ExcludeAssets="runtime" />
+    <PackageReference Include="Microsoft.VisualStudio.Imaging" Version="$(VsVersion)" ExcludeAssets="runtime" />
+    <PackageReference Include="Microsoft.VisualStudio.Imaging.Interop.14.0.DesignTime" Version="$(VsVersion)" ExcludeAssets="runtime" />
+    <PackageReference Include="Microsoft.VisualStudio.Language.Intellisense" Version="$(VsVersion)" ExcludeAssets="runtime" />
+    <PackageReference Include="Microsoft.VisualStudio.Language.StandardClassification" Version="$(VsVersion)" ExcludeAssets="runtime" />
+    <PackageReference Include="Microsoft.VisualStudio.Package.LanguageService.14.0" Version="$(VsVersion)" ExcludeAssets="runtime" />
+    <PackageReference Include="Microsoft.VisualStudio.ProjectAggregator" Version="8.0.50728" ExcludeAssets="runtime" />
     <PackageReference Include="Microsoft.VisualStudio.SDK.EmbedInteropTypes" Version="15.0.21" PrivateAssets="none" />
-    <PackageReference Include="Microsoft.VisualStudio.Shell.Design" Version="14.0.23205" IncludeAssets="compile" />
-    <PackageReference Include="Microsoft.VisualStudio.Shell.Interop.10.0" Version="10.0.30320" IncludeAssets="compile" />
-    <PackageReference Include="Microsoft.VisualStudio.Shell.Interop.11.0" Version="11.0.61031" IncludeAssets="compile" />
-    <PackageReference Include="Microsoft.VisualStudio.Shell.Interop.12.0" Version="12.0.30111" IncludeAssets="compile" />
-    <PackageReference Include="Microsoft.VisualStudio.Shell.Interop.12.1.DesignTime" Version="12.1.30329" IncludeAssets="compile" />
-    <PackageReference Include="Microsoft.VisualStudio.Shell.Interop.14.0.DesignTime" Version="14.0.25023" IncludeAssets="compile" />
-    <PackageReference Include="Microsoft.VisualStudio.TextManager.Interop.9.0" Version="9.0.30730" IncludeAssets="compile" />
-    <PackageReference Include="Microsoft.VisualStudio.TextManager.Interop.10.0" Version="10.0.30320" IncludeAssets="compile" />
-    <PackageReference Include="Microsoft.VisualStudio.TextManager.Interop.11.0" Version="11.0.61032" IncludeAssets="compile" />
-    <PackageReference Include="Microsoft.VisualStudio.TextManager.Interop.12.0" Version="12.0.30112" IncludeAssets="compile" />
-    <PackageReference Include="Microsoft.VisualStudio.TextManager.Interop.12.1.DesignTime" Version="12.1.30330" IncludeAssets="compile" />
-    <PackageReference Include="Microsoft.VisualStudio.TextTemplating.14.0" Version="14.0.23205" IncludeAssets="compile" />
-    <PackageReference Include="Microsoft.VisualStudio.TextTemplating.Interfaces.14.0" Version="14.0.23205" IncludeAssets="compile" />
-    <PackageReference Include="Microsoft.VisualStudio.TextTemplating.VSHost.14.0" Version="14.0.23205" IncludeAssets="compile" />
-    <PackageReference Include="Microsoft.VisualStudio.Threading" Version="14.0.51107" IncludeAssets="compile" />
-    <PackageReference Include="Microsoft.VisualStudio.Validation" Version="14.0.51103" IncludeAssets="compile" />
-    <PackageReference Include="Microsoft.Win32.Primitives" Version="4.3.0" IncludeAssets="compile" />
-    <PackageReference Include="Newtonsoft.Json" Version="6.0.4" IncludeAssets="compile" />
-    <PackageReference Include="NuGet.VisualStudio" Version="4.6.2" IncludeAssets="compile" />
-    <PackageReference Include="VSLangProj2" Version="7.0.5001" IncludeAssets="compile" />
-    <PackageReference Include="VSLangProj100" Version="10.0.30320" IncludeAssets="compile" />
-    <PackageReference Include="VSLangProj110" Version="11.0.61031" IncludeAssets="compile" />
-    <PackageReference Include="VSLangProj140" Version="14.0.25030" IncludeAssets="compile" />
+    <PackageReference Include="Microsoft.VisualStudio.Shell.Design" Version="$(VsVersion)" ExcludeAssets="runtime" />
+    <PackageReference Include="Microsoft.VisualStudio.Shell.Interop.10.0" Version="10.0.30320" ExcludeAssets="runtime" />
+    <PackageReference Include="Microsoft.VisualStudio.Shell.Interop.11.0" Version="11.0.61031" ExcludeAssets="runtime" />
+    <PackageReference Include="Microsoft.VisualStudio.Shell.Interop.12.0" Version="12.0.30111" ExcludeAssets="runtime" />
+    <PackageReference Include="Microsoft.VisualStudio.Shell.Interop.12.1.DesignTime" Version="12.1.30329" ExcludeAssets="runtime" />
+    <PackageReference Include="Microsoft.VisualStudio.Shell.Interop.14.0.DesignTime" Version="$(VsVersion)" ExcludeAssets="runtime" />
+    <PackageReference Include="Microsoft.VisualStudio.TextManager.Interop.9.0" Version="9.0.30730" ExcludeAssets="runtime" />
+    <PackageReference Include="Microsoft.VisualStudio.TextManager.Interop.10.0" Version="10.0.30320" ExcludeAssets="runtime" />
+    <PackageReference Include="Microsoft.VisualStudio.TextManager.Interop.11.0" Version="11.0.61032" ExcludeAssets="runtime" />
+    <PackageReference Include="Microsoft.VisualStudio.TextManager.Interop.12.0" Version="12.0.30112" ExcludeAssets="runtime" />
+    <PackageReference Include="Microsoft.VisualStudio.TextManager.Interop.12.1.DesignTime" Version="12.1.30330" ExcludeAssets="runtime" />
+    <PackageReference Include="Microsoft.VisualStudio.TextTemplating.14.0" Version="$(VsVersion)" ExcludeAssets="runtime" />
+    <PackageReference Include="Microsoft.VisualStudio.TextTemplating.Interfaces.14.0" Version="$(VsVersion)" ExcludeAssets="runtime" />
+    <PackageReference Include="Microsoft.VisualStudio.TextTemplating.VSHost.14.0" Version="$(VsVersion)" ExcludeAssets="runtime" />
+    <PackageReference Include="Microsoft.VisualStudio.Threading" Version="14.0.51107" ExcludeAssets="runtime" />
+    <PackageReference Include="Microsoft.VisualStudio.Validation" Version="14.0.51103" ExcludeAssets="runtime" />
+    <PackageReference Include="Microsoft.Win32.Primitives" Version="4.3.0" ExcludeAssets="runtime" />
+    <PackageReference Include="Newtonsoft.Json" Version="6.0.4" ExcludeAssets="runtime" />
+    <PackageReference Include="NuGet.VisualStudio" Version="4.6.2" ExcludeAssets="runtime" />
+    <PackageReference Include="VSLangProj2" Version="7.0.5001" ExcludeAssets="runtime" />
+    <PackageReference Include="VSLangProj100" Version="10.0.30320" ExcludeAssets="runtime" />
+    <PackageReference Include="VSLangProj110" Version="11.0.61031" ExcludeAssets="runtime" />
+    <PackageReference Include="VSLangProj140" Version="14.0.25029" ExcludeAssets="runtime" />
   </ItemGroup>
 </Project>
