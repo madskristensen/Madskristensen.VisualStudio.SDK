@@ -47,10 +47,6 @@
     <PackageReference Include="Microsoft.VisualStudio.Shell.Design" Version="15.0.26201" IncludeAssets="compile" />
     <PackageReference Include="Microsoft.VisualStudio.Shell.Embeddable" Version="15.0.25726-Preview5" IncludeAssets="compile" />
     <PackageReference Include="Microsoft.VisualStudio.Shell.Framework" Version="15.0.26201" IncludeAssets="compile" />
-    <PackageReference Include="Microsoft.VisualStudio.Shell.Immutable.10.0" Version="15.0.25413-Preview5" IncludeAssets="compile" />
-    <PackageReference Include="Microsoft.VisualStudio.Shell.Immutable.11.0" Version="15.0.25413-Preview5" IncludeAssets="compile" />
-    <PackageReference Include="Microsoft.VisualStudio.Shell.Immutable.12.0" Version="15.0.25413-Preview5" IncludeAssets="compile" />
-    <PackageReference Include="Microsoft.VisualStudio.Shell.Immutable.14.0" Version="15.0.25403-Preview5" IncludeAssets="compile" />
     <PackageReference Include="Microsoft.VisualStudio.Shell.Interop.14.0.DesignTime" Version="14.3.26929" IncludeAssets="compile" />
     <PackageReference Include="Microsoft.VisualStudio.Shell.Interop.15.0.DesignTime" Version="15.0.26201" IncludeAssets="compile" />
     <PackageReference Include="Microsoft.VisualStudio.TextManager.Interop.9.0" Version="9.0.30730" IncludeAssets="compile" />
