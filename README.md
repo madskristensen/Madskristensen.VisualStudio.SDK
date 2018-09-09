@@ -10,9 +10,38 @@ To use this package, reference the version that matches the lowest version of Vi
 
 ```xml
 <ItemGroup>
-  <PackageReference Include="Madskristensen.VisualStudio.SDK" Version="14.0.0-alpha7" />
+  <PackageReference Include="Madskristensen.VisualStudio.SDK" Version="14.0.0-beta2" />
 </ItemGroup>
 ```
+
+## APIs and versions
+
+### 14.0
+* AsyncPackage
+* TextMate grammer support
+* Light bulbs (aka. SuggestedActions)
+* Roslyn Analyzers
+* ImageMonikers (including KnownMonikers collection)
+
+### 14.3
+* Task Status Center
+* InfoBar (yellow bar)
+
+### 15.0
+* TextMate grammars registered by .pkgdef
+* ServiceHub services
+* Open Folder support
+* Completion Filters
+* .vsixmanifest v3 format
+* NGen support
+
+### 15.7
+* Async QuickInfo API
+* Editor commanding API
+
+### 15.8
+* Async Completion API
+* Extension pack support (.vsext)
 
 ## License
 [Apache 2.0](LICENSE)
