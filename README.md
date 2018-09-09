@@ -16,18 +16,24 @@ To use this package, reference the version that matches the lowest version of Vi
 
 ## APIs and versions
 
-### 14.0
+### 14.0 
+.vsixmanifest version: **14.0** or **14.0.23205**
+
 * AsyncPackage
 * TextMate grammer support
 * Light bulbs (aka. SuggestedActions)
 * Roslyn Analyzers
 * ImageMonikers (including KnownMonikers collection)
 
-### 14.3
+### 14.3 
+.vsixmanifest version: **14.0.25407**
+
 * Task Status Center
 * InfoBar (yellow bar)
 
-### 15.0
+### 15.0 
+.vsixmanifest version: **15.0** or **15.0.26228**
+
 * TextMate grammars registered by .pkgdef
 * ServiceHub services
 * Open Folder support
@@ -35,11 +41,15 @@ To use this package, reference the version that matches the lowest version of Vi
 * .vsixmanifest v3 format
 * NGen support
 
-### 15.7
+### 15.7 
+.vsixmanifest version: **15.0.27703**
+
 * Async QuickInfo API
 * Editor commanding API
 
-### 15.8
+### 15.8 
+.vsixmanifest version: **15.0.28010**
+
 * Async Completion API
 * Extension pack support (.vsext)
 
