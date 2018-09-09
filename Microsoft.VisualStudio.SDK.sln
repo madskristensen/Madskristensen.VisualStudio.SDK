@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28010.3005
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microsoft.VisualStudio.SDK.15.0", "src\Microsoft.VisualStudio.SDK.15.0.csproj", "{20028C39-BFD2-49DF-A7D8-6DE9CD5BDA43}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microsoft.VisualStudio.SDK.15.0", "src\15.0\Microsoft.VisualStudio.SDK.15.0.csproj", "{20028C39-BFD2-49DF-A7D8-6DE9CD5BDA43}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microsoft.VisualStudio.SDK.15.7", "src\Microsoft.VisualStudio.SDK.15.7.csproj", "{F5D58DC6-DE7F-4BFE-90E1-37F812F3675F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microsoft.VisualStudio.SDK.15.7", "src\15.7\Microsoft.VisualStudio.SDK.15.7.csproj", "{F5D58DC6-DE7F-4BFE-90E1-37F812F3675F}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microsoft.VisualStudio.SDK.14.0", "src\Microsoft.VisualStudio.SDK.14.0.csproj", "{EB99906E-12F6-49BB-9BCE-13A7CC553E11}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microsoft.VisualStudio.SDK.14.0", "src\14.0\Microsoft.VisualStudio.SDK.14.0.csproj", "{EB99906E-12F6-49BB-9BCE-13A7CC553E11}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{8EF411AD-984E-49E6-83D2-414BC11557A7}"
 	ProjectSection(SolutionItems) = preProject
@@ -17,7 +17,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		README.md = README.md
 	EndProjectSection
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microsoft.VisualStudio.SDK.14.3", "src\Microsoft.VisualStudio.SDK.14.3.csproj", "{95DDA418-97B1-41DD-87A7-FF6AC40AEA0F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microsoft.VisualStudio.SDK.14.3", "src\14.3\Microsoft.VisualStudio.SDK.14.3.csproj", "{95DDA418-97B1-41DD-87A7-FF6AC40AEA0F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

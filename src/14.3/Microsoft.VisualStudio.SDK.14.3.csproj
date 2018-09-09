@@ -1,5 +1,5 @@
 ﻿<Project Sdk="Microsoft.Net.Sdk">
-  <Import Project="Common.targets" />
+  <Import Project="..\Common.targets" />
   
   <PropertyGroup>
     <VersionPrefix Condition="'$(VersionPrefix)' == ''">14.3.0</VersionPrefix>
