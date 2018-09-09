@@ -21,10 +21,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Include="$(PackageId).targets" Link="build/$(PackageId).targets">
-      <Pack>True</Pack>
-      <PackagePath>build</PackagePath>
-    </None>
+    <None Include="*.targets" Pack="true" PackagePath="build\" Visible="false" />
   </ItemGroup>
 
   <ItemGroup>
