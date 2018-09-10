@@ -1,6 +1,6 @@
 ﻿<Project Sdk="Microsoft.Net.Sdk">
   <Import Project="..\Common.targets" />
-  
+
   <PropertyGroup>
     <VersionPrefix Condition="'$(VersionPrefix)' == ''">14.3.0</VersionPrefix>
     <VsVersion Condition="'$(VsVersion)' == ''">14.3.25407</VsVersion>
@@ -29,9 +29,6 @@
     <PackageReference Include="Microsoft.VisualStudio.Shell.Interop.12.0" Version="12.0.30111" />
     <PackageReference Include="Microsoft.VisualStudio.Shell.Interop.12.1.DesignTime" Version="12.1.30329" />
     <PackageReference Include="Microsoft.VisualStudio.Shell.Interop.14.0.DesignTime" Version="$(VsVersion)" />
-    <PackageReference Include="Microsoft.VisualStudio.TextManager.Interop.9.0" Version="9.0.30730" />
-    <PackageReference Include="Microsoft.VisualStudio.TextManager.Interop.10.0" Version="10.0.30320" />
-    <PackageReference Include="Microsoft.VisualStudio.TextManager.Interop.11.0" Version="11.0.61032" />
     <PackageReference Include="Microsoft.VisualStudio.TextManager.Interop.12.0" Version="12.0.30112" />
     <PackageReference Include="Microsoft.VisualStudio.TextManager.Interop.12.1.DesignTime" Version="12.1.30330" />
     <PackageReference Include="Microsoft.VisualStudio.TextTemplating.14.0" Version="$(VsVersion)" />
