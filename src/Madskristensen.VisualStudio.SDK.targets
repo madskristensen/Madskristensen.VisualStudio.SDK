@@ -1,5 +1,6 @@
 ﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
 
+  <!-- These were not included in the BuildTools package -->
   <ItemGroup>
     <SuppressFromVsix Include="NuGet.VisualStudio.dll" InProject="false" />
     <SuppressFromVsix Include="Microsoft.Win32.Primitives.dll" InProject="false" />
@@ -15,6 +16,7 @@
     <SuppressFromVsix Include="VSLangProj157.dll" InProject="false" />
   </ItemGroup>
 
+  <!-- Fix for the XAML issue -->
   <Target Name="WorkaroundForXAMLIntellisenseBuildIssue" AfterTargets="_CheckCompileDesignTimePrerequisite">
     <PropertyGroup>
       <BuildingProject>false</BuildingProject>
