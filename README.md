@@ -10,7 +10,15 @@ To use this package, reference the version that matches the lowest version of Vi
 
 ```xml
 <ItemGroup>
-  <PackageReference Include="Madskristensen.VisualStudio.SDK" Version="14.0.0-beta2" />
+  <PackageReference Include="Madskristensen.VisualStudio.SDK" Version="14.0.0-beta3" />
+</ItemGroup>
+```
+
+If you don't want all the referenced .dll files to end up in the /bin directory, then simply exclude them like so:
+
+```xml
+<ItemGroup>
+  <PackageReference Include="Madskristensen.VisualStudio.SDK" Version="14.0.0-beta3" ExcludeAssets="runtime" />
 </ItemGroup>
 ```
 
