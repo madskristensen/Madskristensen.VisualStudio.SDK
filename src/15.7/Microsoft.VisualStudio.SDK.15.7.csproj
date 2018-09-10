@@ -1,11 +1,11 @@
 ﻿<Project Sdk="Microsoft.Net.Sdk">
   <Import Project="..\Common.targets" />
-  
+
   <PropertyGroup>
     <VersionPrefix>15.7.0</VersionPrefix>
     <VsVersion>15.7.27703</VsVersion>
   </PropertyGroup>
-  
+
   <ItemGroup>
     <PackageReference Include="EnvDTE100" Version="10.0.3" />
     <PackageReference Include="Microsoft.VisualStudio.ComponentModelHost" Version="$(VsVersion)" />
@@ -43,6 +43,8 @@
     <PackageReference Include="Microsoft.VisualStudio.TextTemplating.15.0" Version="$(VsVersion)" />
     <PackageReference Include="Microsoft.VisualStudio.TextTemplating.Interfaces.15.0" Version="$(VsVersion)" />
     <PackageReference Include="Microsoft.VisualStudio.TextTemplating.VSHost.15.0" Version="15.6.27413" />
+    <PackageReference Include="Microsoft.VisualStudio.Workspace" Version="15.0.401" />
+    <PackageReference Include="Microsoft.VisualStudio.Workspace.VSIntegration" Version="15.0.401" />
     <PackageReference Include="Microsoft.Win32.Primitives" Version="4.3.0" />
     <PackageReference Include="Newtonsoft.Json" Version="9.0.1" />
     <PackageReference Include="NuGet.VisualStudio" Version="4.6.2" />
