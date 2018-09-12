@@ -64,6 +64,7 @@ If you don't want all the referenced .dll files to end up in the /bin directory,
 
 * Async Completion API
 * Extension pack support (.vsext)
+* Language Server Protocol
 
 ## License
 [Apache 2.0](LICENSE)
