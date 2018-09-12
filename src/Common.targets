@@ -1,4 +1,4 @@
-<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="15.0">
   <PropertyGroup>
     <TargetFramework>net46</TargetFramework>
     <OutputType>Library</OutputType>
@@ -10,7 +10,7 @@
     <CopyLocalLockFileAssemblies>false</CopyLocalLockFileAssemblies>
 
     <PackageId>Madskristensen.VisualStudio.SDK</PackageId>
-    <VersionSuffix>beta5</VersionSuffix>
+    <VersionSuffix>beta6</VersionSuffix>
     <PackageDescription>Meta package containing all VSSDK Reference Assemblies</PackageDescription>
     <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
     <PackageLicenseUrl>https://aka.ms/pexunj</PackageLicenseUrl>
