@@ -36,7 +36,6 @@ If you don't want all the referenced .dll files to end up in the /bin directory,
 ### 14.3 
 .vsixmanifest version: **14.0.25407**
 
-* Task Status Center
 * InfoBar (yellow bar)
 
 ### 15.0 
@@ -48,6 +47,11 @@ If you don't want all the referenced .dll files to end up in the /bin directory,
 * Completion Filters
 * .vsixmanifest v3 format
 * NGen support
+
+### 15.3
+.vsixmanifest version: **15.0.26606**
+
+* Task Status Center
 
 ### 15.7 
 .vsixmanifest version: **15.0.27703**
