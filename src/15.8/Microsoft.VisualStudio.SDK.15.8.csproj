@@ -18,6 +18,7 @@
     <PackageReference Include="Microsoft.VisualStudio.Designer.Interfaces" Version="1.1.4323" PrivateAssets="none" />
     <PackageReference Include="Microsoft.VisualStudio.Editor" Version="15.8.525" PrivateAssets="none" />
     <PackageReference Include="Microsoft.VisualStudio.ImageCatalog" Version="$(VsVersion)" PrivateAssets="none" />
+    <PackageReference Include="Microsoft.VisualStudio.Language" Version="15.8.525" PrivateAssets="none" />
     <PackageReference Include="Microsoft.VisualStudio.Language.Intellisense" Version="15.8.525" PrivateAssets="none" />
     <PackageReference Include="Microsoft.VisualStudio.Language.NavigateTo.Interfaces" Version="15.8.525" PrivateAssets="none" />
     <PackageReference Include="Microsoft.VisualStudio.Language.StandardClassification" Version="15.8.525" PrivateAssets="none" />
