@@ -1,6 +1,6 @@
 # Complete SDK for VSIX projects
 
-[![Build status](https://ci.appveyor.com/api/projects/status/0ul3t4y6ci95vyys?svg=true)](https://ci.appveyor.com/project/madskristensen/registryexplorer)
+[![Build status](https://ci.appveyor.com/api/projects/status/uq0qw8tybu13df13?svg=true)](https://ci.appveyor.com/project/madskristensen/madskristensen-visualstudio-sdk)
 
 Makes it easier to build Visual Studio extensions by having only a single NuGet package reference for the entire SDK.
 
