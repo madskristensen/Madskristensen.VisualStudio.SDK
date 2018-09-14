@@ -22,6 +22,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Include="..\*.targets" Pack="true" PackagePath="build\" Visible="false" />
+    <None Include="..\*.targets" Pack="true" PackagePath="build\$(TargetFramework)" Visible="false" />
   </ItemGroup>
 </Project>
