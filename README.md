@@ -15,13 +15,7 @@ To use this package, reference the version that matches the lowest version of Vi
 </ItemGroup>
 ```
 
-If you don't want all the referenced .dll files to end up in the /bin directory, then simply exclude them like so:
-
-```xml
-<ItemGroup>
-  <PackageReference Include="Madskristensen.VisualStudio.SDK" Version="14.0.0-beta3" ExcludeAssets="runtime" />
-</ItemGroup>
-```
+There are versions of the package for most major and minor versions of Visual Studio from version 2015 (14.0) and newer.
 
 ## APIs and versions
 
