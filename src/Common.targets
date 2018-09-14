@@ -8,6 +8,7 @@
     <Copyright>© Microsoft Corporation. All rights reserved.</Copyright>
     <IncludeBuildOutput>false</IncludeBuildOutput>
     <CopyLocalLockFileAssemblies>false</CopyLocalLockFileAssemblies>
+    <ResolveAssemblyWarnOrErrorOnTargetArchitectureMismatch>None</ResolveAssemblyWarnOrErrorOnTargetArchitectureMismatch>
 
     <PackageId>Madskristensen.VisualStudio.SDK</PackageId>
     <VersionSuffix>beta6</VersionSuffix>
