@@ -1,13 +1,13 @@
 image: Visual Studio 2017
 
 build_script:
-  - dotnet pack src\14.0\ /p:versionprefix=14.0."${env:APPVEYOR_BUILD_NUMBER}" -v minimal
-  - dotnet pack src\14.3\ /p:versionprefix=14.3."${env:APPVEYOR_BUILD_NUMBER}" -v minimal
-  - dotnet pack src\15.0\ /p:versionprefix=15.0."${env:APPVEYOR_BUILD_NUMBER}" -v minimal
-  - dotnet pack src\15.3\ /p:versionprefix=15.3."${env:APPVEYOR_BUILD_NUMBER}" -v minimal
-  - dotnet pack src\15.6\ /p:versionprefix=15.6."${env:APPVEYOR_BUILD_NUMBER}" -v minimal
-  - dotnet pack src\15.7\ /p:versionprefix=15.7."${env:APPVEYOR_BUILD_NUMBER}" -v minimal
-  - dotnet pack src\15.8\ /p:versionprefix=15.8."${env:APPVEYOR_BUILD_NUMBER}" -v minimal
+  - ps: dotnet pack src\14.0\ "/p:versionprefix=14.0.${env:APPVEYOR_BUILD_NUMBER}" -v minimal
+  - ps: dotnet pack src\14.3\ "/p:versionprefix=14.3.${env:APPVEYOR_BUILD_NUMBER}" -v minimal
+  - ps: dotnet pack src\15.0\ "/p:versionprefix=15.0.${env:APPVEYOR_BUILD_NUMBER}" -v minimal
+  - ps: dotnet pack src\15.3\ "/p:versionprefix=15.3.${env:APPVEYOR_BUILD_NUMBER}" -v minimal
+  - ps: dotnet pack src\15.6\ "/p:versionprefix=15.6.${env:APPVEYOR_BUILD_NUMBER}" -v minimal
+  - ps: dotnet pack src\15.7\ "/p:versionprefix=15.7.${env:APPVEYOR_BUILD_NUMBER}" -v minimal
+  - ps: dotnet pack src\15.8\ "/p:versionprefix=15.8.${env:APPVEYOR_BUILD_NUMBER}" -v minimal
 
 artifacts:
   - path: artifacts\*.nupkg
