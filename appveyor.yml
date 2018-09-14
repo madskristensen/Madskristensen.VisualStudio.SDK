@@ -1,7 +1,7 @@
 image: Visual Studio 2017
 
 build_script:
-  - ps: dotnet pack "/p:BuildNumber={env:APPVEYOR_BUILD_NUMBER}" -v minimal
+  - ps: dotnet pack "/p:BuildNumber=${env:APPVEYOR_BUILD_NUMBER}" -v minimal
 
 artifacts:
   - path: artifacts\*.nupkg

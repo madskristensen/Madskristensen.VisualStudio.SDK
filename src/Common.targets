@@ -13,7 +13,7 @@
     <PackageId>Madskristensen.VisualStudio.SDK</PackageId>
     <BuildNumber Condition="'$(BuildNumber)' == ''">0</BuildNumber>
     <VersionSuffix>pre</VersionSuffix>
-    <PackageDescription>Meta package containing all VSSDK Reference Assemblies</PackageDescription>
+    <PackageDescription>Meta package containing all Visual Studio SDK Reference Assemblies</PackageDescription>
     <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
     <PackageLicenseUrl>https://aka.ms/pexunj</PackageLicenseUrl>
     <PackageIconUrl>https://aka.ms/vsextensibilityicon</PackageIconUrl>
