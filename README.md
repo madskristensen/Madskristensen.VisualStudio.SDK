@@ -10,7 +10,7 @@ To use this package, reference the version that matches the lowest version of Vi
 
 ```xml
 <ItemGroup>
-  <PackageReference Include="Madskristensen.VisualStudio.SDK" Version="14.0.0-beta3" />
+  <PackageReference Include="Madskristensen.VisualStudio.SDK" Version="14.0.123-pre" />
 </ItemGroup>
 ```
 
@@ -52,6 +52,11 @@ If you don't want all the referenced .dll files to end up in the /bin directory,
 .vsixmanifest version: **15.0.26606**
 
 * Task Status Center
+
+## 15.6
+.vsixmanifest version: **15.0.27413**
+
+* Async tool window
 
 ### 15.7 
 .vsixmanifest version: **15.0.27703**
