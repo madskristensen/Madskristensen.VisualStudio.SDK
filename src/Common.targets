@@ -8,7 +8,6 @@
     <Copyright>© Microsoft Corporation. All rights reserved.</Copyright>
     <IncludeBuildOutput>false</IncludeBuildOutput>
     <CopyLocalLockFileAssemblies>false</CopyLocalLockFileAssemblies>
-    <ResolveAssemblyWarnOrErrorOnTargetArchitectureMismatch>None</ResolveAssemblyWarnOrErrorOnTargetArchitectureMismatch>
 
     <PackageId>Madskristensen.VisualStudio.SDK</PackageId>
     <BuildNumber Condition="'$(BuildNumber)' == ''">0</BuildNumber>
