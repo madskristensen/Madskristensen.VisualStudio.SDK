@@ -11,6 +11,7 @@
     <ResolveAssemblyWarnOrErrorOnTargetArchitectureMismatch>None</ResolveAssemblyWarnOrErrorOnTargetArchitectureMismatch>
 
     <PackageId>Madskristensen.VisualStudio.SDK</PackageId>
+    <BuildNumber Condition="'$(BuildNumber)' == ''">0</BuildNumber>
     <VersionSuffix>pre</VersionSuffix>
     <PackageDescription>Meta package containing all VSSDK Reference Assemblies</PackageDescription>
     <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>

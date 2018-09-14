@@ -2,7 +2,7 @@
   <Import Project="..\Common.targets" />
 
   <PropertyGroup>
-    <VersionPrefix>15.6</VersionPrefix>
+    <VersionPrefix>15.6.$(BuildNumber)</VersionPrefix>
     <VsVersion>15.6.27413</VsVersion>
   </PropertyGroup>
 
