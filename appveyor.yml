@@ -1,13 +1,13 @@
 image: Visual Studio 2017
 
 build_script:
-  - dotnet pack src\14.0\ /p:versionprefix=14.0.{build} -v minimal
-  - dotnet pack src\14.3\ /p:versionprefix=14.3.{build} -v minimal
-  - dotnet pack src\15.0\ /p:versionprefix=15.0.{build} -v minimal
-  - dotnet pack src\15.3\ /p:versionprefix=15.3.{build} -v minimal
-  - dotnet pack src\15.6\ /p:versionprefix=15.6.{build} -v minimal
-  - dotnet pack src\15.7\ /p:versionprefix=15.7.{build} -v minimal
-  - dotnet pack src\15.8\ /p:versionprefix=15.8.{build} -v minimal
+  - dotnet pack src\14.0\ /p:versionprefix=14.0.${build} -v minimal
+  - dotnet pack src\14.3\ /p:versionprefix=14.3.${build} -v minimal
+  - dotnet pack src\15.0\ /p:versionprefix=15.0.${build} -v minimal
+  - dotnet pack src\15.3\ /p:versionprefix=15.3.${build} -v minimal
+  - dotnet pack src\15.6\ /p:versionprefix=15.6.${build} -v minimal
+  - dotnet pack src\15.7\ /p:versionprefix=15.7.${build} -v minimal
+  - dotnet pack src\15.8\ /p:versionprefix=15.8.${build} -v minimal
 
 artifacts:
   - path: artifacts\*.nupkg
