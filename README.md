@@ -1,7 +1,7 @@
 # Complete SDK for VSIX projects
 
 [![Build status](https://ci.appveyor.com/api/projects/status/uq0qw8tybu13df13?svg=true)](https://ci.appveyor.com/project/madskristensen/madskristensen-visualstudio-sdk)
-[![NuGet Pre Release](https://img.shields.io/nuget/vpre/Microsoft.AspNet.Mvc.svg)](https://github.com/madskristensen/Madskristensen.VisualStudio.SDK)
+[![NuGet Pre Release](https://img.shields.io/nuget/vpre/Madskristensen.VisualStudio.SDK.svg)](https://www.nuget.org/packages/Madskristensen.VisualStudio.SDK)
 
 Makes it easier to build Visual Studio extensions by having only a single NuGet package reference for the entire SDK.
 
