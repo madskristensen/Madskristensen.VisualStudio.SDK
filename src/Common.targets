@@ -11,7 +11,7 @@
     <ResolveAssemblyWarnOrErrorOnTargetArchitectureMismatch>None</ResolveAssemblyWarnOrErrorOnTargetArchitectureMismatch>
 
     <PackageId>Madskristensen.VisualStudio.SDK</PackageId>
-    <VersionSuffix>beta6</VersionSuffix>
+    <VersionSuffix>pre</VersionSuffix>
     <PackageDescription>Meta package containing all VSSDK Reference Assemblies</PackageDescription>
     <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
     <PackageLicenseUrl>https://aka.ms/pexunj</PackageLicenseUrl>

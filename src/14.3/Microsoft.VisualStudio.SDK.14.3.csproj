@@ -2,8 +2,8 @@
   <Import Project="..\Common.targets" />
 
   <PropertyGroup>
-    <VersionPrefix Condition="'$(VersionPrefix)' == ''">14.3.0</VersionPrefix>
-    <VsVersion Condition="'$(VsVersion)' == ''">14.3.25407</VsVersion>
+    <VersionPrefix>14.3</VersionPrefix>
+    <VsVersion>14.3.25407</VsVersion>
   </PropertyGroup>
 
   <ItemGroup>
