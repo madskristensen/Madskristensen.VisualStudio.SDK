@@ -25,6 +25,7 @@
     <PackageReference Include="Microsoft.VisualStudio.ProjectAggregator" Version="8.0.50728" PrivateAssets="none" />
     <PackageReference Include="Microsoft.VisualStudio.ProjectSystem.Sdk" Version="15.0.743" PrivateAssets="none" />
     <PackageReference Include="Microsoft.VisualStudio.SDK.EmbedInteropTypes" Version="15.0.21" PrivateAssets="none" />
+    <PackageReference Include="Microsoft.VisualStudio.Setup.Configuration.Interop" Version="1.16.30" PrivateAssets="none" />
     <PackageReference Include="Microsoft.VisualStudio.Shell.15.0" Version="$(VsVersion)" PrivateAssets="none" />
     <PackageReference Include="Microsoft.VisualStudio.Shell.Design" Version="$(VsVersion)" PrivateAssets="none" />
     <PackageReference Include="Microsoft.VisualStudio.Shell.Embeddable" Version="$(VsVersion)" PrivateAssets="none" />
