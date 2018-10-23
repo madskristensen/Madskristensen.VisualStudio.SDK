@@ -17,6 +17,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microsoft.VisualStudio.SDK.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microsoft.VisualStudio.SDK.15.8", "src\15.8\Microsoft.VisualStudio.SDK.15.8.csproj", "{D959DF6F-7182-4810-B4A4-1844C914DF85}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microsoft.VisualStudio.SDK.16.0", "src\16.0\Microsoft.VisualStudio.SDK.16.0.csproj", "{67DC8EF7-401E-4702-864D-F693758C0E5C}"
+EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{8EF411AD-984E-49E6-83D2-414BC11557A7}"
 	ProjectSection(SolutionItems) = preProject
 		appveyor.yml = appveyor.yml
@@ -59,6 +61,10 @@ Global
 		{D959DF6F-7182-4810-B4A4-1844C914DF85}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D959DF6F-7182-4810-B4A4-1844C914DF85}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D959DF6F-7182-4810-B4A4-1844C914DF85}.Release|Any CPU.Build.0 = Release|Any CPU
+		{67DC8EF7-401E-4702-864D-F693758C0E5C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67DC8EF7-401E-4702-864D-F693758C0E5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67DC8EF7-401E-4702-864D-F693758C0E5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67DC8EF7-401E-4702-864D-F693758C0E5C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
