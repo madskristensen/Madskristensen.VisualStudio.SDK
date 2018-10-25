@@ -24,4 +24,9 @@
   <ItemGroup>
     <None Include="..\*.targets" Pack="true" PackagePath="build\$(TargetFramework)" Visible="false" />
   </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.VisualStudio.SDK.EmbedInteropTypes" Version="15.0.27" PrivateAssets="none" />
+    <PackageReference Include="Microsoft.VisualStudio.SDK.Analyzers" Version="15.8.36" PrivateAssets="none" />
+  </ItemGroup>
 </Project>

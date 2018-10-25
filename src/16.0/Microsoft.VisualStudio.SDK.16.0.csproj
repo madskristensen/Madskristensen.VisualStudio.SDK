@@ -8,6 +8,7 @@
 
   <ItemGroup>
     <PackageReference Include="EnvDTE100" Version="10.0.3" PrivateAssets="none" />
+    <PackageReference Include="Microsoft.VisualStudio.CoreUtility" Version="16.0.112" PrivateAssets="none" />
     <PackageReference Include="Microsoft.VisualStudio.ComponentModelHost" Version="15.8.525" PrivateAssets="none" />
     <PackageReference Include="Microsoft.VisualStudio.Debugger.Engine" Version="$(VsVersion)" PrivateAssets="none" />
     <PackageReference Include="Microsoft.VisualStudio.Debugger.Interop" Version="8.0.50729" PrivateAssets="none" />
@@ -28,7 +29,6 @@
     <PackageReference Include="Microsoft.VisualStudio.Package.LanguageService.15.0" Version="$(VsVersion)" PrivateAssets="none" />
     <PackageReference Include="Microsoft.VisualStudio.ProjectAggregator" Version="8.0.50728" PrivateAssets="none" />
     <PackageReference Include="Microsoft.VisualStudio.ProjectSystem.Sdk" Version="15.8.243" PrivateAssets="none" />
-    <PackageReference Include="Microsoft.VisualStudio.SDK.EmbedInteropTypes" Version="15.0.26" PrivateAssets="none" />
     <PackageReference Include="Microsoft.VisualStudio.Setup.Configuration.Interop" Version="1.16.30" PrivateAssets="none" />
     <PackageReference Include="Microsoft.VisualStudio.Shell.15.0" Version="16.0.28103-pre" PrivateAssets="none" />
     <PackageReference Include="Microsoft.VisualStudio.Shell.Design" Version="$(VsVersion)" PrivateAssets="none" />
