@@ -18,7 +18,7 @@
     <PackageReference Include="Microsoft.VisualStudio.Debugger.Metadata" Version="$(VsVersion)" PrivateAssets="none" />
     <PackageReference Include="Microsoft.VisualStudio.Designer.Interfaces" Version="1.1.4323" PrivateAssets="none" />
     <PackageReference Include="Microsoft.VisualStudio.Editor" Version="15.8.525" PrivateAssets="none" />
-    <PackageReference Include="Microsoft.VisualStudio.ImageCatalog" Version="$(VsVersion)" PrivateAssets="none" />
+    <PackageReference Include="Microsoft.VisualStudio.ImageCatalog" Version="16.0.28205-pre" PrivateAssets="none" />
     <PackageReference Include="Microsoft.VisualStudio.Language" Version="15.8.525" PrivateAssets="none" />
     <PackageReference Include="Microsoft.VisualStudio.Language.Intellisense" Version="15.8.525" PrivateAssets="none" />
     <PackageReference Include="Microsoft.VisualStudio.Language.NavigateTo.Interfaces" Version="15.8.525" PrivateAssets="none" />
@@ -30,10 +30,9 @@
     <PackageReference Include="Microsoft.VisualStudio.ProjectSystem.Sdk" Version="15.8.243" PrivateAssets="none" />
     <PackageReference Include="Microsoft.VisualStudio.SDK.EmbedInteropTypes" Version="15.0.26" PrivateAssets="none" />
     <PackageReference Include="Microsoft.VisualStudio.Setup.Configuration.Interop" Version="1.16.30" PrivateAssets="none" />
-    <PackageReference Include="Microsoft.VisualStudio.Shell.15.0" Version="$(VsVersion)" PrivateAssets="none" />
+    <PackageReference Include="Microsoft.VisualStudio.Shell.15.0" Version="16.0.28103-pre" PrivateAssets="none" />
     <PackageReference Include="Microsoft.VisualStudio.Shell.Design" Version="$(VsVersion)" PrivateAssets="none" />
     <PackageReference Include="Microsoft.VisualStudio.Shell.Embeddable" Version="$(VsVersion)" PrivateAssets="none" />
-    <PackageReference Include="Microsoft.VisualStudio.Shell.Framework" Version="$(VsVersion)" PrivateAssets="none" />
     <PackageReference Include="Microsoft.VisualStudio.Shell.Interop" Version="7.10.6072" PrivateAssets="none" />
     <PackageReference Include="Microsoft.VisualStudio.Shell.Interop.15.1.DesignTime" Version="15.0.26929" PrivateAssets="none" />
     <PackageReference Include="Microsoft.VisualStudio.Shell.Interop.15.5.DesignTime" Version="15.6.27413" PrivateAssets="none" />
