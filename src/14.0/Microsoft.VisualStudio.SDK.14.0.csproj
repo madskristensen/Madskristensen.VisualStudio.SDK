@@ -8,6 +8,7 @@
 
   <ItemGroup>
     <PackageReference Include="EnvDTE100" Version="10.0.3" PrivateAssets="none" />
+    <PackageReference Include="Microsoft.VisualStudio.CommandBars" Version="8.0.0" PrivateAssets="none" />
     <PackageReference Include="Microsoft.VisualStudio.ComponentModelHost" Version="14.0.25424" PrivateAssets="none" />
     <PackageReference Include="Microsoft.VisualStudio.Debugger.Engine" Version="$(VsVersion)" PrivateAssets="none" />
     <PackageReference Include="Microsoft.VisualStudio.Debugger.Interop" Version="8.0.50729" PrivateAssets="none" />

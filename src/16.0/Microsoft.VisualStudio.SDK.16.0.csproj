@@ -8,6 +8,7 @@
 
   <ItemGroup>
     <PackageReference Include="EnvDTE100" Version="10.0.3" PrivateAssets="none" />
+    <PackageReference Include="Microsoft.VisualStudio.CommandBars" Version="8.0.0" PrivateAssets="none" />
     <PackageReference Include="Microsoft.VisualStudio.CoreUtility" Version="16.0.112" PrivateAssets="none" />
     <PackageReference Include="Microsoft.VisualStudio.ComponentModelHost" Version="15.8.525" PrivateAssets="none" />
     <PackageReference Include="Microsoft.VisualStudio.Debugger.Engine" Version="$(VsVersion)" PrivateAssets="none" />
@@ -48,7 +49,7 @@
     <PackageReference Include="Microsoft.VisualStudio.Workspace.VSIntegration" Version="15.0.485" PrivateAssets="none" />
     <PackageReference Include="Microsoft.Win32.Primitives" Version="4.3.0" PrivateAssets="none" />
     <PackageReference Include="Newtonsoft.Json" Version="9.0.1" PrivateAssets="none" />
-    <PackageReference Include="StreamJsonRpc" Version="1.3.23" PrivateAssets="none" />
+    <PackageReference Include="StreamJsonRpc" Version="1.3.23" PrivateAssets="none" /> <!-- Move to 1.4 in Preview 2-->
     <PackageReference Include="System.ComponentModel.Composition" Version="4.5.0" PrivateAssets="none" />
     <PackageReference Include="System.Collections.Immutable" Version="1.5.0" PrivateAssets="none" />
     <PackageReference Include="VSLangProj2" Version="7.0.5001" PrivateAssets="none" />
