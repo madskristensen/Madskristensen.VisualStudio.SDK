@@ -17,6 +17,15 @@ To use this package, reference the version that matches the lowest version of Vi
 
 There are versions of the package for most major and minor versions of Visual Studio from version 2015 (14.0) and newer.
 
+To exclude all the referenced .dll files from ending up in the bin directory, add an *ExcludeAssets* attribute with the value *runtime*:
+
+```xml
+<ItemGroup>
+  <PackageReference Include="Madskristensen.VisualStudio.SDK" Version="14.0.123-pre"
+    ExcludeAssets="runtime" />
+</ItemGroup>
+```
+
 ## APIs and versions
 
 ### 14.0 
